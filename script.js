@@ -16,10 +16,16 @@ function calcular(){
     document.getElementById('força').innerText = força;
     
 }
+function calcular2(){
+    var Q= parseFloat(document.getElementById('Q').value)
+    var v=parseFloat(document.getElementById('v').value)
+    var b=parseFloat(document.getElementById('b').value)
+    var sen=parseFloat(document.getElementById('sen').value)
+
+    var força1 = Q*v*b*sen
+
+    document.getElementById('força1').innerText = força1;
+
+}
 
    
-
-
-
-
-
